@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    color: #252525;
+    padding: 25px 100px;
+}
+
+
+.steps {
+    background-color: #f7f7f7;
+    max-width: 60rem;
+    border-radius: 7px;
+    padding: 25px 100px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers > div {
+    height: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numbers .active {
+    background-color: #7950f2;
+    color: #fff;
+}
+.message {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message > button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.message p {
+    font-size: 1.5rem;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button button {
+    display: flex;
+    padding: 0.6rem 1.2rem;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #7950f2;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer
+}
+
+.close {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 40px;
+}
